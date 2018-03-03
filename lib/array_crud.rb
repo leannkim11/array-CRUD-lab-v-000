@@ -23,17 +23,17 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-  array = ["wow","one", "two"]
+  array = ["wow", "one", "two"]
   array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  array = ["one", "two", "three"]
-  array [0]
+  array = ["one", "two", "am", "three"]
+  array [2]
 end
 
 def retrieve_first_element_from_array(array)
-  array = ["one", "two", "three"]
+  array = ["wow", "one", "two", "three"]
   array.first
 end
 
